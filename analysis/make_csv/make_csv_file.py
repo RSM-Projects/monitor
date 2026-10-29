@@ -7,7 +7,7 @@ from pathlib import Path
 PORT = "/dev/cu.usbserial-10"
 BAUD_RATE =460800
 OUTPUT_FILE_PATH= Path("../../data/raw/")
-LABEL = "fan_on_01"
+LABEL = "fan_on_05"
 
 OUTPUT_FILE_PATH.mkdir(parents = True, exist_ok =True)
 output_file =OUTPUT_FILE_PATH / f"{LABEL}.csv"
